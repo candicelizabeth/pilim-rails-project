@@ -21,6 +21,6 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  adapter: postgresql
-  database: db/production.sqlite3
+   <<: *default
+   adapter: postgresql
+   database: db/production.sqlite3
